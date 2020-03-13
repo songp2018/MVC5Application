@@ -1,0 +1,25 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_HeaderFooter</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header style="height:100px; background-color:aquamarine; color:darkblue">
+        <h1> Welcome to XYZ Store.</h1>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer style="height:100px; background-color:chartreuse;color:navy">
+        <h2> This is footer</h2>
+        <h2> &copy; Copyright of XYZ Store.  @DateTime.Now</h2>
+    </footer>
+</body>
+</html>
